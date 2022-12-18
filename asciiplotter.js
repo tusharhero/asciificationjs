@@ -11,8 +11,8 @@ function ascii2cart(x, y, img, s=5)
 
 function cart2ascii(x, y, img, s=5)
 {
-	let length_y = len(img)
-	let length_x = len(img[0])
+	let length_y = img.length
+	let length_x = img[0].length
     	var y = Math.trunc(length_y / 2) - s * ny
     	var x = s * nx + Math.trunc(length_x / 2)
     	return Math.trunc(x), Math.trunc(y)
