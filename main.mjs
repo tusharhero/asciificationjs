@@ -15,5 +15,5 @@ function plotinout(){
 	var sizeval = size.value
 	var scaleval = scale.value
 	console.log(sizeval,scaleval)
-	output.innerHTML = getstring(ploted,blankimg(sizeval,sizeval),undefined,undefined,scaleval)
+	output.innerHTML = getstring(ploted,createblankimg(sizeval,sizeval),undefined,undefined,scaleval)
 }
